@@ -4,16 +4,17 @@ from .models import Resume
 
 GENDER_CHOICES = [
  ('Male', 'Male'),
- ('Female', 'Female')
+ ('Female', 'Female'),
+ ('Other', 'Other')
 ]
 
 JOB_CITY_CHOICE = [
- ('Delhi', 'Delhi'),
- ('Pune', 'Pune'),
- ('Ranchi', 'Ranchi'),
+ ('Ahmedabad', 'Ahmedabad'),
+ ('Banglore', 'Banglore'),
+ ('Gandhinagar', 'Gandhinagar'),
  ('Mumbai', 'Mumbai'),
- ('Dhanbad', 'Dhanbad'),
- ('Banglore', 'Banglore')
+ ('Pune', 'Pune'), 
+ ('Ranchi', 'Ranchi')
 ]
 
 # Custom Django form Here
