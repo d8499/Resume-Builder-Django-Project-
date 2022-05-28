@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'myapp',
+    'django_unused_media',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+# To cleanup all unused media files, run management command:
+# python manage.py cleanup_unused_media
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
